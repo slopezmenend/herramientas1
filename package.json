@@ -1,0 +1,38 @@
+{
+  "name": "slopezmenend_pec1",
+  "version": "1.0.0",
+  "description": "PEC1 de herramientas HTML y CSS 1 de Samuel López",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "babel": "^6.23.0",
+    "cssnano": "^4.1.10",
+    "htmlnano": "^0.2.7",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "postcss-nesting": "^7.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel:dev": "parcel index.html",
+    "parcel:build": "parcel build index.html",
+    "clean": "rimraf dist .cache .cache-loader",
+    "dev": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slopezmenend/herramientas1.git"
+  },
+  "keywords": [
+    "UOC"
+  ],
+  "author": "Slopezmenend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slopezmenend/herramientas1/issues"
+  },
+  "homepage": "https://github.com/slopezmenend/herramientas1#readme"
+}
