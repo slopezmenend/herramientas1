@@ -20,7 +20,8 @@
     "parcel:build": "parcel build index.html",
     "clean": "rimraf dist .cache .cache-loader",
     "dev": "npm-run-all clean parcel:dev",
-    "build": "npm-run-all clean parcel:build"
+    "build": "npm-run-all clean parcel:build",
+    "deploy": "npm run build && git add . && git commit -m 'latest build'"
   },
   "repository": {
     "type": "git",
