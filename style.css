@@ -36,7 +36,7 @@ a:hover{
   color: red;
 }
 
-img{
+img, picture{
   display:block;
   margin:auto;  
   width: 50%;
@@ -208,4 +208,115 @@ div.subcontainer-footer a{
       grid-column: 3;
   }
   
+}
+
+
+img#logo
+{
+  width: 75px;
+}
+
+.image-clip {
+  position: relative;
+  width: 50%;
+  max-width: 150px;
+}
+
+.image-clip img, figcaption { 
+  position: absolute;
+  top: 0;
+}
+
+.image-clip img:last-child {
+  mix-blend-mode: multiply;
+  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+/* Animación subtitulo que se desliza de derecha a izquierda*/
+h2 {
+  animation-duration: 6s;
+  animation-name: titulo;
+  text-align: center;
+}
+
+@keyframes titulo {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+a
+{
+  animation-duration: 5s;
+  animation-name: enlace;
+}
+
+@keyframes enlace
+{
+  from {
+    color: black;
+  }
+
+  to {
+    color: white;
+
+  }
+}
+
+img.portada
+{
+  width:20%;
+}
+
+img.miniatura
+{
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+ul.categoria
+{
+  padding: 5px;
+  border: 2px black solid;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5px;  
+}
+
+li.elemento
+{
+  background-color:  lightsteelblue;
+  background-color: var(--fondo_menu);
+  grid-row: auto;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+/* Mediaqueries del grid */
+@media (min-width: 600px) {
+  ul.categoria
+  {  
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  ul.categoria
+  {  
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul.categoria
+  {  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

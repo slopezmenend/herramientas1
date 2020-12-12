@@ -1,7 +1,7 @@
 {
-  "name": "slopezmenend_pec1",
+  "name": "slopezmenend_pec2",
   "version": "1.0.0",
-  "description": "PEC1 de herramientas HTML y CSS 1 de Samuel López",
+  "description": "PEC2 de herramientas HTML y CSS 1 de Samuel López",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -21,7 +21,7 @@
     "clean": "rimraf dist .cache .cache-loader",
     "dev": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
-    "deploy": "npm run build && git add . && git commit -m 'latest build'"
+    "deploy": "npm run build && git add . && git push"
   },
   "repository": {
     "type": "git",

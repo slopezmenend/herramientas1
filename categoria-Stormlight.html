@@ -9,6 +9,17 @@
 <body>
     <a class="sr-only" href="#main">Saltar al contenido principal</a>
     <header>
+        <h1>PEC - Tributo a Brandon Sanderson</h1>
+        <img srcset="img/cosmere-icon_300px.png 90w, 
+        img/cosmere-icon_600px.png 180w,
+        img/cosmere-icon_900px.png 270w,
+        img/cosmere-icon.png 1200w"
+        sizes="(max-width: 400px) 90px, 
+            (max-width: 700px) 180px, 
+            (max-width: 1000px) 270px,
+            1200px"
+            src="img/cosmere-icon.png" alt="logo con un sol en el centro dentro de un circulo con picos formados por 4 cuartos de circunferencia" 
+            id="logo"> 
         <div class="container">
             <nav>
                 <ul>
@@ -22,18 +33,29 @@
         </div>
     </header>
     <main id="main">    
-    <h1>El archivo de las tormentas</h1>
+    <h2>El archivo de las tormentas</h2>
     <div id="migas"><a href="index.html">Inicio </a>/ <cite>El archivo de las tormentas</cite></div>    
     <p><cite>El archivo de las tormentas</cite> es una serie de novelas de fantasía épica escrita por el autor estadounidense Brandon Sanderson. 
     <p>El primero (de 10 volúmenes planificados) es <cite>El camino de los reyes</cite>, se publicó el 31 de agosto de 2010. El segundo, <cite>Palabras radiantes</cite>, se publicó el 4 de marzo de 2014. El tercero, <cite>Juramentada</cite>, se publicó el 14 de noviembre de 2017. El cuarto libro de la saga, <cite>El ritmo de la guerra</cite>, se espera que vea la luz el 17 de noviembre de 2020 en su versión en inglés y la misma semana en su versión en Español.</p>
     <p>Se planean diez libros en la serie, divididos en dos conjuntos de cinco libros cada uno. Sanderson describe el arco de la historia planificada del segundo conjunto de cinco libros como una "secuela" del primer conjunto, con algunas apariciones de personajes del primer conjunto. Se planea que el cuarto libro tenga lugar un año después de los eventos de <cite>Juramentada</cite>. El mayor salto de tiempo en la serie ocurrirá entre el quinto y el sexto libro.</p>
 
-    <ul>
-        <li><a href="detalle-Camino.html">El camino de los reyes</a></li>
-        <li>Palabras radiantes</li>
-        <li>Danzante del filo</li>
-        <li>Juramentada</li>
-        <li>El ritmo de la guerra</li>
+    <ul class="categoria">
+        <li class="elemento"><a href="detalle-Camino.html">
+            <img srcset="img/CaminoReyes_300px_small.jpg 300w, 
+            img/CaminoReyes_600px_small.jpg 600w,
+            img/CaminoReyes_900px_small.jpg 900w,
+            img/CaminoReyes_small.jpg 1200w"
+           sizes="(max-width: 400px) 300px, 
+               (max-width: 700px) 600px, 
+               (max-width: 1000px) 900px,
+               1200px"
+           src="img/CaminoReyes_small.jpg" alt="Portada de Camino de reyes"
+           class = "miniatura">     
+            El camino de los reyes</a></li>
+        <li class="elemento">Palabras radiantes</li>
+        <li class="elemento">Danzante del filo</li>
+        <li class="elemento">Juramentada</li>
+        <li class="elemento">El ritmo de la guerra</li>
     </ul>    
     </main>
     <footer id="footer">
@@ -43,6 +65,12 @@
                   <a href="#">Aviso legal</a>
                   <a href="#">Política de privacidad</a>  
               </div>
+
+              <figure class="image-clip">
+                <img src="img/sanderson_grey.jpg"></img>
+                <img src="img/sanderson_red.jpg"></img>
+              </figure>         
+    
               <div class="subcontainer-footer">
                   <a href="#">Facebook</a>
                   <a href="#">Twitter</a>
