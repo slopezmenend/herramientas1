@@ -21,7 +21,7 @@
     "clean": "rimraf dist .cache .cache-loader",
     "dev": "npm-run-all clean parcel:dev",
     "build": "npm-run-all clean parcel:build",
-    "deploy": "npm run build && git add . && git push"
+    "deploy": "npm run build && git add . && git commit -a && git push"
   },
   "repository": {
     "type": "git",
