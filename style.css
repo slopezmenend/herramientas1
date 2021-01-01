@@ -234,7 +234,7 @@ img#logo
 
 /* Animación subtitulo que se desliza de derecha a izquierda*/
 h2 {
-  animation-duration: 6s;
+  animation-duration: 3s;
   animation-name: titulo;
   text-align: center;
 }
@@ -254,7 +254,7 @@ h2 {
 
 a
 {
-  animation-duration: 5s;
+  animation-duration: 1s;
   animation-name: enlace;
 }
 
@@ -266,7 +266,6 @@ a
 
   to {
     color: white;
-
   }
 }
 
