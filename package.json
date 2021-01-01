@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "PEC2 de herramientas HTML y CSS 1 de Samuel López",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "terser": "^5.5.1"
+  },
   "devDependencies": {
     "autoprefixer": "^10.0.2",
     "babel": "^6.23.0",

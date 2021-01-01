@@ -1,4 +1,8 @@
-last 4 version
-> 2%
+[modern]
+last 2 versions
+last 1 year
+> 5%
 not dead
-IE 11
+
+[legacy]
+defaults
