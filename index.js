@@ -1,4 +1,4 @@
-class Saludo
+/*class Saludo
 {
     saludo (persona)
     {
@@ -8,4 +8,6 @@ class Saludo
 }
 
 let saludador = new Saludo ();
-saludador.saludo('SLM');
+saludador.saludo('SLM');*/
+
+console.log(`Hello world from SLM`);
