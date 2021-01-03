@@ -234,12 +234,12 @@ img#logo
 
 /* Animación subtitulo que se desliza de derecha a izquierda*/
 h2 {
-  animation-duration: 3s;
-  animation-name: titulo;
+  /*animation-duration: 3s;
+  animation-name: titulo;*/
   text-align: center;
 }
 
-@keyframes titulo {
+/*@keyframes titulo {
   from {
     margin-left: 100%;
     width: 200%;
@@ -250,11 +250,11 @@ h2 {
     width: 100%;
   }
 }
-
+*/
 
 a
 {
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-name: enlace;
 }
 
